@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+
+#SPDX-License-Identifer: GPL-3.0
+# *Copyright (c) 2022 kouki Uchida & Ryuichi Ueda. All right reserved.
+
 import rospy
 from std_msgs.msg import Int32
 
@@ -6,7 +10,7 @@ n = 0
 
 def cb(message):
     global n
-    n = message.data*2
+    n = message.data*3
 
 rospy.init_node('twice')
 sub = rospy.Subscriber('count_up', Int32, cb)
