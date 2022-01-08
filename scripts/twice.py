@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 
+<<<<<<< HEAD
 #SPDX-License-Identifer: GPL-3.0
 # *Copyright (c) 2022 kouki Uchida & Ryuichi Ueda. All right reserved.
+=======
+
+
+>>>>>>> 1ede2ed1741fe83f0c8611748c95b58f1a8ef45c
 
 import rospy
 from std_msgs.msg import Int32
