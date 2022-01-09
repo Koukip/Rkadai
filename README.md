@@ -19,8 +19,6 @@
 
 1. 別のホームを作成する
 
-2. $ cd catkin_ws
-
 3. $ rosrun mypkg count.py
 
 4. 元のホームに戻る
@@ -30,9 +28,13 @@
 
 ### Operation check (twice.py)
 
-1. $ rosrun mypkg twice.py
+1. 別のホームを作成する。
 
-2. 別のホームに移動
+2. rosrun mypkg twice.py 
+
+3. 元のホームに移動。
+
+4. $rostopic echo /twice
 
 
 
