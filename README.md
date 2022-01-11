@@ -17,11 +17,11 @@
 
 ### Operation check　(count.py)
 
-1. 別のホームを作成する
+1. 別のホームを作成する。
 
 3. $ rosrun mypkg count.py
 
-4. 元のホームに戻る
+4. 元のホームに戻る。
 
 5. $ rostopic echo /count_up
 
@@ -32,7 +32,7 @@
 
 2. rosrun mypkg twice.py 
 
-3. 元のホームに移動。
+3. 元のホームに戻る。
 
 4. $rostopic echo /twice
 
