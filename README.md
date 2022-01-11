@@ -39,3 +39,5 @@
 
 
 ## License
+
+https://github.com/Koukip/Rkadai/blob/2ffcda5d920465559f3429e90565a9c6ceb1e14f/LICENSE
