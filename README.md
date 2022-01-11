@@ -22,11 +22,13 @@ https://youtu.be/K6MbpHZAHEE
 
 1. 別のホームを作成する。
 
-3. $ rosrun mypkg count.py
+2. $ rosrun mypkg count.py
 
-4. 元のホームに戻る。
+3. 元のホームに戻る。
 
-5. $ rostopic echo /count_up
+4. $ rostopic echo /count_up
+
+→　nを1ずつ足して10Hzで出される。
 
 
 ### Operation check (twice.py)
@@ -38,6 +40,8 @@ https://youtu.be/K6MbpHZAHEE
 3. 元のホームに戻る。
 
 4. $rostopic echo /twice
+
+→　数字を3倍にして10Hzで出される。
 
 
 
