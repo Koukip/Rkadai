@@ -13,6 +13,8 @@ https://youtu.be/K6MbpHZAHEE
 
 2. $ cd catkin_ws/src/mypkg/scripts
 
+3. $ catkin_make
+
 3. $roscore で別のホームからroscoreを立ち上げておく。
 
 
